@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+.grid-container {
+    
+    
+    height: 100vh;
+    width: auto;
+}
+
+
+
+.header-flex {
+    display: flex;
+    direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #808285;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FEB89A
+}
+
+.homepage {
+    background-image: url(assets/salon-photo.jpg);
+    padding: 100px;
+    height: 200px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeats;
+    background-size: cover;
+    margin-bottom: 50px;
+} 
+.top-heading {
+    display: grid;
+    justify-content: center;
+    padding-top: 200px;
+    color: rgb(37, 37, 37);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.item1{
+    margin-right: 150px;
+    margin-left:  150px;
+    text-align: center;
+}
+
+
+
+.footer-container {
+    display: grid;
+    justify-content: center;
+    
+    background-color: #3eb980;
+    height: 200px;
+    padding: 50px;
+    margin-top: 200px;    
+}
+.footer-flex {
+    align-items: center;
+    padding: 70px;
+}
+.fa {
+   margin-left: 200px;
+    font-size: 30px;
+    width: 30px;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 50%;
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    color: white;
+  }
