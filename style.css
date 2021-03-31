@@ -2,15 +2,32 @@ body{
     margin: 0;
 }
 .grid-container {
-    
-    
     height: 100vh;
     width: auto;
 }
+.button {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    display: flex; 
+    background-color:black;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 350px;
+    cursor: pointer;
+  }
 
+  button:hover{
+      color:#FEB89A;
+  }
 
 
 .header-flex {
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     display: flex;
     direction: row;
     justify-content: space-around;
@@ -27,11 +44,11 @@ a {
 }
 
 a:hover {
-    color: #FEB89A
+    color: #FEB89A;
 }
 
 .homepage {
-    background-image: url(assets/salon-photo.jpg);
+    background-image: url(assets/salon-photo2.jpg);
     padding: 100px;
     height: 200px;
     background-attachment: fixed;
@@ -45,9 +62,10 @@ a:hover {
     justify-content: center;
     padding-top: 200px;
     color: rgb(37, 37, 37);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .item1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     margin-right: 150px;
     margin-left:  150px;
     text-align: center;
