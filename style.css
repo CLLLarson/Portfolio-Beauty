@@ -22,6 +22,7 @@ body{
   .center {
       margin:auto;
       display:flex;
+     
   }
 
   button:hover{
@@ -40,7 +41,7 @@ body{
 }
 
 a {
-    font-size: 40px;
+    font-size: 30px;
     text-decoration: none;
     color: #808285;
     font-weight: bold;
@@ -82,7 +83,7 @@ a:hover {
     justify-content: center;
     
     background-color: #3eb980;
-    height: 200px;
+    height: 300px;
     padding: 50px;
     margin-top: 200px;    
 }

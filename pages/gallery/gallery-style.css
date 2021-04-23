@@ -1,22 +1,25 @@
 
 .gallery-Container {
- padding-left: 15px;
+  margin-left: 25px;
 }
+ 
 .row {
 
-    display: flex;
+    display: grid;
     flex-wrap: wrap;
-    padding: 50px 4px;
-   
-  }
+    
+    
+   }
   
   /* Create two equal columns that sits next to each other */
   .column {
+    
     flex: 50%;
     padding: 0 4px;
   }
   
   .column img {
+    
     margin-top: 8px;
     vertical-align: middle;
   }
