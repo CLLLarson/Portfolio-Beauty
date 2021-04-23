@@ -1,8 +1,12 @@
 
+.gallery-Container {
+ padding-left: 15px;
+}
 .row {
+
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px;
+    padding: 50px 4px;
    
   }
   
